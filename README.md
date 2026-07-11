@@ -44,5 +44,6 @@ https://www.python.org/
   ```bash
   python --version
 
-**CMD WAJIB**
-![CMD](img/hero-ana.png)
+# CMD Wajib
+
+![CMD](img/cmd-priority.png)
