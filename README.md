@@ -43,3 +43,7 @@ https://www.python.org/
 - Gunakan terminal / shell / command prompt, ketik:  
   ```bash
   python --version
+
+# CMD wajib
+
+![CMD](img/cmd-priority.png.png)
