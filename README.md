@@ -75,36 +75,36 @@ umur = "dua puluh"  # ✅ BERHASIL! Sekarang jadi String
 ```
 ┌─────────────────────────────────────────┐
 │           SEMUA VARIABEL                │
-│  ┌─────────────┐    ┌─────────────┐   │
-│  │   STATIS    │    │   DINAMIS   │   │
-│  │  (Compile)  │    │  (Runtime)  │   │
-│  └─────────────┘    └─────────────┘   │
+│  ┌─────────────┐    ┌─────────────┐     │ 
+│  │   STATIS    │    │   DINAMIS   │     │
+│  │  (Compile)  │    │  (Runtime)  │     │
+│  └─────────────┘    └─────────────┘     │
 │         │                  │            │
-│         └──────┬─────────┘            │
-│                ▼                      │
-│      SAMA-SAMA MENYIMPAN DATA         │
-│      SAMA-SAMA BISA DIUBAH NILAINYA   │
-│      (kalau statis: nilai sesuai tipe)│
+│         └──────┬───────────┘            │
+│                ▼                        │
+│      SAMA-SAMA MENYIMPAN DATA           │
+│      SAMA-SAMA BISA DIUBAH NILAINYA     │
+│      (kalau statis: nilai sesuai tipe)  │
 └─────────────────────────────────────────┘
 ```
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    BAHASA PEMROGRAMAN                        │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌────────────┐ │
-│  │     STATIS      │  │     DINAMIS     │  │   HYBRID   │ │
-│  │   (Compile)     │  │   (Runtime)     │  │  (Keduanya)│ │
-│  ├─────────────────┤  ├─────────────────┤  ├────────────┤ │
-│  │ • Java          │  │ • Python        │  │ • TypeScript│ │
-│  │ • C / C++       │  │ • JavaScript    │  │ • Kotlin   │ │
-│  │ • C#            │  │ • Ruby          │  │ • Dart     │ │
-│  │ • Rust          │  │ • PHP           │  │ • Python 3+│ │
-│  │ • Go            │  │ • Lua           │  │            │ │
-│  │ • Swift         │  │                 │  │            │ │
-│  └─────────────────┘  └─────────────────┘  └────────────┘ │
+│                    BAHASA PEMROGRAMAN                       │
+│  ┌─────────────────┐  ┌─────────────────┐  ┌──────────────┐ │
+│  │     STATIS      │  │     DINAMIS     │  │   HYBRID     │ │
+│  │   (Compile)     │  │   (Runtime)     │  │  (Keduanya)  │ │
+│  ├─────────────────┤  ├─────────────────┤  ├──────────────┤ │
+│  │ • Java          │  │ • Python        │  │ • TypeScript │ │
+│  │ • C / C++       │  │ • JavaScript    │  │ • Kotlin     │ │
+│  │ • C#            │  │ • Ruby          │  │ • Dart       │ │
+│  │ • Rust          │  │ • PHP           │  │ • Python 3+  │ │
+│  │ • Go            │  │ • Lua           │  │              │ │
+│  │ • Swift         │  │                 │  │              │ │
+│  └─────────────────┘  └─────────────────┘  └──────────────┘ │
 │         │                    │                    │         │
-│    Aman & Cepat         Fleksibel & Cepat     Terbaik     │
-│    tapi ketat           tapi riskan           keduanya?    │
+│    Aman & Cepat         Fleksibel & Cepat     Terbaik       │
+│    tapi ketat           tapi riskan           keduanya?     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
