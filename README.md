@@ -47,3 +47,64 @@ https://www.python.org/
 # CMD Wajib
 
 ![CMD](img/cmd-priority.png)
+
+# 🔧 Sifat Variabel: Dinamis vs Statis
+
+## 📌 Definisi
+
+### Variabel Statis (Static Typing)
+
+Variabel yang **tipe datanya ditentukan saat deklarasi** dan **tidak bisa berubah** sepanjang program berjalan. Tipe dicek saat **compile-time** (sebelum program dijalankan).
+
+```java
+int umur = 20;      // tipe int, hanya bisa menyimpan integer
+umur = "dua puluh"; // ❌ ERROR! Tidak bisa diubah ke String
+```
+
+### Variabel Dinamis (Dynamic Typing)
+
+Variabel yang **tipe datanya ditentukan saat runtime (saat program berjalan)** dan **bisa berubah-ubah sesuai nilai yang diberikan**.
+
+```python 
+umur = 20           # tipe int
+umur = "dua puluh"  # ✅ BERHASIL! Sekarang jadi String
+```
+
+## Hubungan Keduanya
+
+```
+┌─────────────────────────────────────────┐
+│           SEMUA VARIABEL                │
+│  ┌─────────────┐    ┌─────────────┐   │
+│  │   STATIS    │    │   DINAMIS   │   │
+│  │  (Compile)  │    │  (Runtime)  │   │
+│  └─────────────┘    └─────────────┘   │
+│         │                  │            │
+│         └──────┬─────────┘            │
+│                ▼                      │
+│      SAMA-SAMA MENYIMPAN DATA         │
+│      SAMA-SAMA BISA DIUBAH NILAINYA   │
+│      (kalau statis: nilai sesuai tipe)│
+└─────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    BAHASA PEMROGRAMAN                        │
+│  ┌─────────────────┐  ┌─────────────────┐  ┌────────────┐ │
+│  │     STATIS      │  │     DINAMIS     │  │   HYBRID   │ │
+│  │   (Compile)     │  │   (Runtime)     │  │  (Keduanya)│ │
+│  ├─────────────────┤  ├─────────────────┤  ├────────────┤ │
+│  │ • Java          │  │ • Python        │  │ • TypeScript│ │
+│  │ • C / C++       │  │ • JavaScript    │  │ • Kotlin   │ │
+│  │ • C#            │  │ • Ruby          │  │ • Dart     │ │
+│  │ • Rust          │  │ • PHP           │  │ • Python 3+│ │
+│  │ • Go            │  │ • Lua           │  │            │ │
+│  │ • Swift         │  │                 │  │            │ │
+│  └─────────────────┘  └─────────────────┘  └────────────┘ │
+│         │                    │                    │         │
+│    Aman & Cepat         Fleksibel & Cepat     Terbaik     │
+│    tapi ketat           tapi riskan           keduanya?    │
+└─────────────────────────────────────────────────────────────┘
+```
+
